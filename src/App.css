@@ -1,0 +1,71 @@
+.App {
+  position: relative;
+  border: 2px solid black;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  font-family: arial;
+  max-width: 1200px;
+  min-height: 600px;
+
+}
+
+.Sidebar{
+  display: inline-block;
+  background-color: #5086fa;
+  padding-right: 50px;
+  padding-left: 10px;
+  margin:  0px;
+  height: 100%;
+  flex-grow: 1;
+  flex-basis: auto;
+  color: white;
+}
+.Sidebar h3{
+  text-decoration: underline;
+}
+
+.channel:hover{
+  background-color: #d6db37;
+  font-weight: bold;
+}
+.channel:active{
+  background-color: #d6db37;
+  font-weight: bold;
+}
+
+.channel-list{
+  list-style: none;
+}
+
+.ContentArea{
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.Message{
+  border: 1px solid slategray;
+  padding: 20px;
+  margin: 5px;
+}
+.MessageList {
+  list-style: none;
+  overflow-y: auto;
+
+}
+.Avatar i{
+  height: 50px;
+  width: 50px;
+  border: 1px solid slategray;
+}
+
+.inputBox{
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  margin-top:  50px;
+}
